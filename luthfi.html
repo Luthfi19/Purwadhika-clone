@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Purwadhika Clone</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/bec2798935.js"></script>
+    <style>
+
+    body{
+    font-family: Poppins;
+    }
+
+    /* div{
+        border: 1px solid orange;
+    } */
+        
+    .header-container{
+    background-color: white;
+    display: flex;
+    padding: 8px 154px 8px 154px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-size: 20px;
+    line-height: 30px;
+    height: 70px;
+    text-align: left;
+    z-index: 1;
+    }
+
+.brand img{
+    height: 40px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.link-item{
+    display: inline-block;
+    color: grey;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link-item:hover{
+    color: black;
+}
+
+.sign-button{
+    padding-top: 10px;
+    width: 120px;
+    height: 45px;
+    border-radius: 120px;
+    text-align: center;
+    background-color: #009687;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.jumbotronparent{
+    height: 500px;
+    border: 1px solid red;
+    margin-top: 78px;
+}
+
+.jumbotronanak{
+    height: 400px;
+    width: 669px;
+}
+
+.first-text{
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: bolder;
+    color: #54B59F;
+    padding: 8px 154px 8px 154px;
+    margin-top: 30px;
+}
+
+.second-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bolder;
+    color: #666666;
+    padding: 8px 154px 8px 154px;
+    padding-top: 5px;
+}
+
+.first{
+    margin-left: 154px;
+    background-color: #54B59F;
+    color: white;
+    border-radius: 60px;
+
+}
+
+.first:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #54B59F;
+}
+
+.icons{
+    width: 50px ;
+    height: 50px ;
+    padding-top: 30px;
+    
+}
+.icon{
+    display: flex ;
+    flex-direction: row;
+    
+    
+}
+
+.icons:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #54B59F;
+}
+    
+    
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <div class="brand">
+                <img src="./logo.b4fc6414.png" alt="">
+            </div>
+
+            <div class="links">
+                    <div class="link-item p-8">
+                        Courses
+                    </div>
+                    <div class="link-item p-8">
+                        Community
+                    </div>
+                    <div class="link-item p-8">
+                        Student Life
+                    </div>
+                    <div class="link-item p-8">
+                            About
+                    </div>
+                    <div class="sign-button">
+                            Sign In
+                    </div>
+               
+                </div>
+        </div>
+   
+        <div class="row jumbotronparent">
+            <div class="col-md-6 jumbotronanak">
+                    <p class="first-text">Siapkah Kamu menghadapi<br> Era Digital</p>
+                    <p class="second-text">Lengkapi diri dengan keahlian digital seperti</p>
+                    <p class="second-text">Coding, Data Science, Digital Marketing, dan</p>
+                    <p class="second-text">UI/UX dengan pilihan program training Kami</p>
+                    <!-- <p class="first">Pelajari Lebih Lanjut</p> -->
+                    <button class="btn first">Pelajari Lebih Lanjut</button>
+                    <div class="second-text icon">
+                            <div class="icons">
+                                    <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="icons">
+                                    <i class="fab fa-facebook-square"></i>
+                            </div>
+                            <div class="icons">
+                                    <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="icons">
+                                    <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="icons">
+                                Blog
+                            </div>
+                    </div>
+                    
+                    
+            </div>
+            <div class="col-md-6 jumbotronanak">
+                <img src="./banner6.1799d6b4.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

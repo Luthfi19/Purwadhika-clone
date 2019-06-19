@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .kotakparent{
+            height: 500px;
+            border : 1px solid red;
+        }
+
+        .kotakanak{
+            height : 50%;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <button class="btn btn-primary">Klik</button> -->
+    <h1>Grid System Bootstrap</h1>
+    <div class="row kotakparent">
+        <div class="col-md-3 col-sm-6 kotakanak">
+            <button class="btn btn-outline-primary">Ini Kotak 1</button>
+        </div>
+
+        <div class="col-md-3 col-sm-6 kotakanak">
+            <button class="btn btn-outline-primary">Ini Kotak 2</button>
+        </div>
+
+        <div class="col-md-3 col-sm-6 kotakanak">
+            <button class="btn btn-outline-primary">Ini Kotak 3</button>
+        </div>
+    
+        <div class="col-md-3 col-sm-6 kotakanak">
+            <button class="btn btn-outline-primary">Ini Kotak 4</button>
+        </div>
+    
+    </div>
+
+    <div>
+        <h1>Ini Flex BootsTrap</h1>
+        <div style="border: 1px solid green" class="d-flex flex-row justify-content-center p-5 mb-3">
+            <div style="border: 1px solid orange" class="p-2">Flex item 1</div>
+            <div style="border: 1px solid orange" class="p-2">Flex item 1</div>
+            <div style="border: 1px solid orange" class="p-2">Flex item 1</div>
+
+        </div>
+        <h1>Ini Offset</h1>
+        <div class=""></div>
+    </div>
+</body>
+</html>
